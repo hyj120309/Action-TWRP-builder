@@ -47,7 +47,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/catthehacker/ubuntu:runner-20.04
+      image: ghcr.io/catthehacker/ubuntu:runner-18.04
     permissions:
       contents: write
     steps:
